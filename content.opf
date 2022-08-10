@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Manual digital-interativo do professor para a educação física</dc:title>
+    <dc:language>pt-br</dc:language>
+    <dc:identifier id="BookId" opf:scheme="ISBN">978-65-5645-210-4</dc:identifier>
+    <dc:creator opf:file-as="Terra Sul Editora" opf:role="aut">Terra Sul Editora</dc:creator>
+
+    <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.43.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:date>2022-07-10T20:49:13+00:00</dc:date>
+    <dc:publisher>Terra Sul</dc:publisher> 
+
+    <meta name="cover" content="cover.jpeg" />
+    <x-metadata>
+    <EmbeddedCover>cover.jpeg</EmbeddedCover>
+    </x-metadata>
+
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+
+  </metadata> 
+
+  <manifest>
+      <item id="index" href="content/index.html" media-type="application/xhtml+xml"/>
+      <item id="part1" href="content/part1.html" media-type="application/xhtml+xml"/> 
+      <item id="part2" href="content/part2.html" media-type="application/xhtml+xml"/>  
+      <item id="stylesheet" href="resources/styles/style.css" media-type="text/css"/>
+      <item id="cover" properties="cover-image" href="cover.jpeg" media-type="image/jpeg" /> 
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest> 
+
+  <spine toc="ncx">
+      <itemref idref="index" /> 
+      <itemref idref="part1" />
+      <itemref idref="part2" /> 
+      <itemref idref="stylesheet" /> 
+  </spine>
+
+  <guide> 
+    <reference type="cover" title="Capa" href="cover.jpeg" />
+  </guide>
+
+</package>
